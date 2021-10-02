@@ -54,7 +54,8 @@ class Application(tk.Frame):
   
     
 
-
+int a
+int b
     def File(self):
         input = self.Text.get("1.0","end-1c")
         file_name = filedialog.asksaveasfilename()
